@@ -10,6 +10,7 @@ function cambiar(mesa){
             var estado = document.getElementById('mesa1');
             if(estado.src.match('mesaColor')){
                 estado.src='img/mesaGris.png';
+                document.getElementById('final1').innerHTML = "Hora de final: "+ d.getHours()+":"+d.getMinutes()+":"+d.getSeconds();
                 clearInterval(clock1);
                 g1=0;
                 document.getElementById('total1').style.display="block";
@@ -30,6 +31,8 @@ function cambiar(mesa){
             var estado = document.getElementById('mesa2');
             if(estado.src.match('mesaColor')){
                 estado.src='img/mesaGris.png';
+                document.getElementById('final2').innerHTML = "Hora de final: "+ d.getHours()+":"+d.getMinutes()+":"+d.getSeconds();
+
                 clearInterval(clock2);
                 g2=0;
                 var current = (h-d2.getHours())+((m-d2.getMinutes())/60)+((s-d2.getSeconds())/3600);
@@ -49,6 +52,8 @@ function cambiar(mesa){
             var estado = document.getElementById('mesa3');
             if(estado.src.match('mesaColor')){
                 estado.src='img/mesaGris.png';
+                document.getElementById('final3').innerHTML = "Hora de final: "+ d.getHours()+":"+d.getMinutes()+":"+d.getSeconds();
+
                 clearInterval(clock3);
                 g3=0;
                 var current = (h-d3.getHours())+((m-d3.getMinutes())/60)+((s-d3.getSeconds())/3600);
@@ -68,6 +73,8 @@ function cambiar(mesa){
             var estado = document.getElementById('mesa4');
             if(estado.src.match('mesaColor')){
                 estado.src='img/mesaGris.png';
+                document.getElementById('final4').innerHTML = "Hora de final: "+ d.getHours()+":"+d.getMinutes()+":"+d.getSeconds();
+
                 clearInterval(clock4);
                 g4=0;
                 var current = (h-d4.getHours())+((m-d4.getMinutes())/60)+((s-d4.getSeconds())/3600);
@@ -87,6 +94,8 @@ function cambiar(mesa){
             var estado = document.getElementById('mesa5');
             if(estado.src.match('mesaColor')){
                 estado.src='img/mesaGris.png';
+                document.getElementById('final5').innerHTML = "Hora de final: "+ d.getHours()+":"+d.getMinutes()+":"+d.getSeconds();
+
                 clearInterval(clock5);
                 g5=0;
                 var current = (h-d5.getHours())+((m-d5.getMinutes())/60)+((s-d5.getSeconds())/3600);
@@ -106,6 +115,8 @@ function cambiar(mesa){
             var estado = document.getElementById('mesa6');
             if(estado.src.match('mesaColor')){
                 estado.src='img/mesaGris.png';
+                document.getElementById('final6').innerHTML = "Hora de final: "+ d.getHours()+":"+d.getMinutes()+":"+d.getSeconds();
+
                 clearInterval(clock6);
                 g6=0;
                 var current = (h-d6.getHours())+((m-d6.getMinutes())/60)+((s-d6.getSeconds())/3600);
